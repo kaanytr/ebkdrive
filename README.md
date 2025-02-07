@@ -9,5 +9,10 @@ Peak Current : 30A
 
 You can download and import the project to edit to your liking. Or, you can directly flash the ebkdrive.elf file in the debug folder. In either case you have to determine your phase directions by trying different phase and hall sensor arrangements according to your motor.
 ![Description](images/top_board.jpg)
- I ordered my PCB assembly from JLCPCB. I only ordered tiny capacitors, resistors and diodes to be pre soldered to the board to make the special component fee low. Later I hand soldered every other component by myself using hot air station and soldering. Nonetheless, you can order the PCB assembly as is even though some parts could be out of stock. Which you can substitute for pin-to-pin exact same function parts. 
+ I ordered my PCB assembly from JLCPCB. I only ordered tiny capacitors, resistors and diodes to be pre soldered to the board to keep the special component fee low. Later, I soldered every other component by myself using hot air station and soldering paste. Nonetheless, you can order the PCB assembly as is even though some parts could be out of stock. Which you can substitute for pin-to-pin exact same function parts. I recommend at least 470uF 63V capacitor to be soldered for the bus capacitor. Both 5mm and 7.5mm capacitor lead spacing slots can be used.
 ![Description](images/board_wired.jpg)
+## Future scope :
+  * Adding closed loop speed control.
+  * Enabling regenerative braking
+  * Integrating SSD1106 screen interface to display real-time data, such as motor speed and power consumption. It's going to utilize I2C pins on the CN2.
+  * Automatic phase sequence recognition
