@@ -5,4 +5,4 @@ The board is designed to work with 36 V but, considering the the parts I have ch
 Continious Current capacity : 15A
 Peak Current : 30A
 You can download and import the project to edit to your liking. Or, you can directly flash the ebkdrive.elf file in the debug folder. In either case you have to determine your phase directions by trying different phase and hall sensor arrangements according to your motor.
-![Description](ebkdrive/docs/3D.png)
+![Description](docs/3D.png)
