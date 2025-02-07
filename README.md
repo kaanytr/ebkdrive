@@ -8,5 +8,6 @@ Continious Current capacity : 15A
 Peak Current : 30A
 
 You can download and import the project to edit to your liking. Or, you can directly flash the ebkdrive.elf file in the debug folder. In either case you have to determine your phase directions by trying different phase and hall sensor arrangements according to your motor.
-![Description](images/top_board.jpg){width=100}
- 
+![Description](images/top_board.jpg)
+ I ordered my PCB assembly from JLCPCB. I only ordered tiny capacitors, resistors and diodes to be pre soldered to the board to make the special component fee low. Later I hand soldered every other component by myself using hot air station and soldering. Nonetheless, you can order the PCB assembly as is even though some parts could be out of stock. Which you can substitute for pin-to-pin exact same function parts. 
+![Description](images/board_wired.jpg)
