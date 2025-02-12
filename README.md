@@ -5,8 +5,8 @@ The buck converter on the board steps down 36V battery input to 5V for powering 
 For now, it runs on open loop speed control by using a potentiometer which can be substituted for a throttle lever. 
 The board is designed to work with 36 V but, considering the the parts I have chosen, it should tolerate 48 V operation as well.
 
-#Continious Current capacity : 15A without heat sinking
-#Peak Current : 30A
+Continious Current capacity : 15A without heat sinking ,
+Peak Current : 30A
 
 You can download and import the STM32CubeIDE project to edit to your liking. Or, you can directly flash the ebkdrive_v1.elf file that is found in the debug folder. In either case you have to determine your phase directions by trying different phase and hall sensor arrangements according to your motor. Automatic commutation detection is on the way!
 I have the STM32F401CDU6 version of the black pill but software will work for other versions as well.
