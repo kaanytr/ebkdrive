@@ -5,6 +5,8 @@ The buck converter on the board steps down 36V battery input to 5V for powering 
 For now, it runs on open loop speed control by using a potentiometer which can be substituted for a throttle lever. 
 The board is designed to work with 36 V but, considering the the parts I have chosen, it should tolerate 48 V operation as well.
 
+https://www.youtube.com/shorts/Ij17WwWdD78
+
 Continious Current capacity : 15A without heat sinking ,
 Peak Current : 30A
 
